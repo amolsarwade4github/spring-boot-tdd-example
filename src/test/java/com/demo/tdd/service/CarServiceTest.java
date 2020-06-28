@@ -35,7 +35,7 @@ public class CarServiceTest {
 
         // assert
         assertThat(car.getName()).isEqualTo("prius");
-        assertThat(car.getName()).isEqualTo("prius");
+        assertThat(car.getType()).isEqualTo("hybrid");
     }
 
     @Test(expected = CarNotFoundException.class)
